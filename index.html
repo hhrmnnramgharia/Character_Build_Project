@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Build - Marvel</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Marvel</div>
+    </header>
+    <section class="character-gallery">
+        <div class="character" onclick="openLightbox(0)">
+            <img src="assets/images/ironman.jpg" alt="Iron Man">
+        </div>
+        <div class="character" onclick="openLightbox(1)">
+            <img src="assets/images/spiderman.jpg" alt="Spider-Man">
+        </div>
+        <div class="character" onclick="openLightbox(2)">
+            <img src="assets/images/hulk.jpg" alt="Hulk">
+        </div>
+    </section>
+    
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="">
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
